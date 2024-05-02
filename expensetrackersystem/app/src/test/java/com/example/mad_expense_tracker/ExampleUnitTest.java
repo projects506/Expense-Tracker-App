@@ -1,4 +1,4 @@
-package com.example.mad;
+package com.example.mad_expense_tracker;
 
 import org.junit.Test;
 
