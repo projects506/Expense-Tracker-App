@@ -8,39 +8,53 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
 
-
-        <Button
-            android:id="@+id/search"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="5dp"
-
+        <ImageButton
+            android:id="@+id/custom_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:background="@drawable/circle_shape"
-            android:backgroundTint="@color/theme_color1"/>
-        <Button
-            android:id="@+id/profile"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="5dp"
+            android:contentDescription="Dashboard" />
 
-            android:background="@drawable/circle_shape"
-            android:backgroundTint="@color/theme_color1"/>
+<!--        <Button-->
+<!--            android:id="@+id/profile"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/circle_shape"-->
+<!--            android:backgroundTint="@color/theme_color1" />-->
 
-        <Button
-            android:id="@+id/dashboard"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/circle_shape"
-            android:backgroundTint="@color/theme_color1" />
+<!--        <Button-->
+<!--            android:id="@+id/dashboard"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/circle_shape"-->
+<!--            android:backgroundTint="@color/theme_color1" />-->
 
+<!--        <Button-->
+<!--            android:id="@+id/settings"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/circle_shape"-->
+<!--            android:backgroundTint="@color/theme_color1" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/settings1"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/circle_shape"-->
+<!--            android:backgroundTint="@color/theme_color1" />-->
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>
